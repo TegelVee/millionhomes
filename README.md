@@ -42,8 +42,8 @@ When analyzing the data, I understood that not all listings were private homes, 
 
 ## New skills:
 
-My main goal was to scrape by using something else than requests, so I strengthened my knowledge of using Playwright. Looping through different tabs and collecting several elements was also something, I had not been doing many times earlier. 
-When cleaning and organizing data, I tried to focus on using principles of tidy data and to chain pandas commands.
+My main goal was to scrape by using something else than requests, so I strengthened my knowledge of using <strong>Playwright</strong>. <strong>Looping through different tabs</strong> and <strong>collecting several elements</strong> was also something, I had not been doing many times earlier. 
+When cleaning and organizing data, I tried to focus on using <strong>principles of tidy data</strong> and to chain pandas commands.
 
 
 ## What I would have liked to do better:
