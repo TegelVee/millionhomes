@@ -4,7 +4,7 @@ Check out the piece I wrote based on the scraper data: [LINKKI]
 
 ## My aim:
 
-Investigating and scraping a Finnish home listing page Oikotie (https://asunnot.oikotie.fi/myytavat-asunnot?pagination=1&cardType=100) with 60,000 listed apartments. 
+Investigating and scraping a Finnish home listing page [Oikotie](https://asunnot.oikotie.fi/myytavat-asunnot?pagination=1&cardType=100) with 60,000 listed apartments. 
 
 I tried to approach the data first by entering a undocumented API, but it was protected. I would have liked to get all information existing of each apartment. The page gets the listings from the API while scrolling, so also requests / BeautifulSoup was useless: only the page’s filter menu was returned as the result, not the listings.
 
@@ -22,7 +22,7 @@ The data needed a lot of cleaning, for example because not all €1M+ listings w
 
 ## Data collection process:
 
-Here is the [filtered link] ( https://asunnot.oikotie.fi/myytavat-asunnot?pagination=1&locations=%5B%5B1,9,%22Suomi%22%5D%5D&cardType=100&price%5Bmin%5D=1000000) that I used for scraping.
+Here is the [filtered link]( https://asunnot.oikotie.fi/myytavat-asunnot?pagination=1&locations=%5B%5B1,9,%22Suomi%22%5D%5D&cardType=100&price%5Bmin%5D=1000000) that I used for scraping.
 
 With asynchronous Playwright I entered to Oikotie and created several for loops to go through all listing cards and tabs. To identify the right html elements, I used Xpath.
 
