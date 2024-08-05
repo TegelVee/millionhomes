@@ -24,7 +24,7 @@ The data needed a lot of cleaning, for example because not all €1M+ listings w
 
 Here is the [filtered link]( https://asunnot.oikotie.fi/myytavat-asunnot?pagination=1&locations=%5B%5B1,9,%22Suomi%22%5D%5D&cardType=100&price%5Bmin%5D=1000000) that I used for scraping.
 
-With asynchronous Playwright I entered to Oikotie and created several for loops to go through all listing cards and tabs. To identify the right html elements, I used Xpath.
+With asynchronous Playwright I entered to Oikotie and created several for loops to go through all listing cards and tabs. To identify the right html attributes, I used Xpath.
 
 When going through the page, I created a try/except command, so the code would loop through even when encountering missing information. On the listing card of each apartment, there was sometimes extra information, like monthly dues the owner must pay for house maintenance. I cleaned those kind of information away already when looping with .endswith().
 
