@@ -6,9 +6,9 @@ Check out the piece I wrote based on the scraper data: [LINKKI]
 
 Investigating and scraping a Finnish home listing page [Oikotie](https://asunnot.oikotie.fi/myytavat-asunnot?pagination=1&cardType=100) with 60,000 listed apartments. 
 
-I tried to approach the data first by entering a undocumented API, but it was protected. I would have liked to get all information existing of each apartment. The page gets the listings from the API while scrolling, so also requests / BeautifulSoup was useless: only the page’s filter menu was returned as the result, not the listings.
+I tried to approach the data first by entering an undocumented API, but it was protected. I would have liked to get all information existing of each listed home (59,000). The page gets the listings from the API while scrolling, so also requests / BeautifulSoup was useless: only the page’s filter menu was returned as the result, not the listings.
 
-Downgraded my project to get only apartments worth for €1,000,000 or more, so I would get a reasonable dataset. Finally, I scraped the page by using Playwright, and I gathered only information seen on each tab (price, size and address), not all the data available, when clicking a listing.
+Downgraded my project to get only apartments worth €1,000,000 or more, so I would get a reasonable dataset to work with. Finally, I scraped the page by using Playwright and gathered only information seen on each tab (price, size and address), not all the data available, when clicking a listing.
 
 
 ## What I found:
