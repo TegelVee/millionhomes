@@ -33,16 +33,16 @@ Saved the scraped information into csv.
 
 ## Overview of the data analysis:
 
-Before analyzing, I cleaned the data in a df by dividing the address information, e.g. I made a new column for city. Also, extra characters like ‘€’ and spaces needed to be cleaned away, and I calculated price per square meter for each listed home. The datatypes needed to be partly changed too. There were also misleading row with price like 1,234,567, and also building lots for sale, so I cleaned them away. Before analyzing, I saved the cleaned data into a new csv.
+Before analyzing, I cleaned the data in a df by dividing the address information, e.g. I made a new column for city. Also, extra characters like ‘€’ and spaces needed to be cleaned away, and I calculated price per square meter for each listed home. The datatypes needed to be partly changed too. There were also misleading rows with prices like 1,234,567, and also building lots, so I cleaned them away. Before analyzing, I saved the cleaned data into a new csv.
 
-Before I found out, what kind of story do I want to write, I made some basic questions, like which are the biggest vs. smallest and most expensive vs. cheapest homes. I also checked average and median prices and which streets are most popping out from the data.
+Before I found out, what kind of story do I want to write, I asked some basic questions, like which are the biggest vs. smallest and most expensive vs. cheapest homes. I also checked average and median prices and which streets are most popping out from the data.
 
 When analyzing the data, I understood that not all listings were private homes, but more like entire housing units, B&Bs etc. so I dropped part of data away.
 
 
 ## New skills:
 
-My main goal was to scrape by using something else than requests, so I strengthened my knowledge of using <strong>Playwright</strong>. <strong>Looping through different tabs</strong> and <strong>collecting several elements</strong> was also something, I had not been doing many times earlier. 
+My main goal was to scrape content by using something else than requests, so in this project I strengthened my knowledge of using <strong>Playwright</strong>. <strong>Looping through different tabs</strong> and <strong>collecting several elements</strong> was also something I had not been doing many times earlier. 
 When cleaning and organizing data, I tried to focus on using <strong>principles of tidy data</strong> and to chain pandas commands.
 
 
