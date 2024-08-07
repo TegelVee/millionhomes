@@ -1,6 +1,6 @@
 # Scraping home listings: “Do you have €1M+ extra?”
 
-Check out the piece I wrote based on the scraper data: [LINKKI]
+Check out [the piece I wrote](https://tegelvee.github.io/millionhomes/) based on the scraper data.
 
 ## My aim:
 
